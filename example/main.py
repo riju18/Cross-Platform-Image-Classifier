@@ -100,7 +100,7 @@ if __name__ == "__main__":
     # single image
     # =============
     # img = Image.open( "dog.4006.jpg" )
-    img = cv2.imread( 'dog.4900.jpg' )
+    img = cv2.imread( 'cat.4046.jpg' )
     img1 = Image.fromarray( cv2.cvtColor( img, cv2.COLOR_BGR2RGB ) )  # cv2 to pil
     result, coordinate = main( img1, os.getcwd() )
     left, top, right, bottom = coordinate[0], coordinate[1], coordinate[2], coordinate[3]
